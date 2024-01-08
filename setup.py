@@ -136,7 +136,7 @@ class BinaryDistribution(setuptools.dist.Distribution):
 
 
 setuptools.setup(
-    name=project,
+    name="onfido-" + project,
     version=version,
     description="TensorFlow IO",
     long_description=long_description,
